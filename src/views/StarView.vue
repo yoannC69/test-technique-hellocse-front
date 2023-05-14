@@ -88,7 +88,7 @@ export default {
 
   methods: {
     loadData(){
-      axios.get('http://127.0.0.1:8000/api/getAllStar').then(response => {
+      axios.get('http://127.0.0.1:2000/api/getAllStar').then(response => {
         this.stars = response.data
       })
     },
